@@ -18,7 +18,7 @@ public class LoginLogic {
             ResultSet rs = stmt.executeQuery();
 
             while (rs.next()){
-                System.out.println(rs.getInt("ID") + " " + rs.getString("Name") + " " + rs.getInt("ID") );
+                System.out.println(rs.getInt("ID") + " " + rs.getString("Name") + " " + rs.getInt("Age") );
             }
 
             con.close();
